@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## README.md
 
-## Getting Started
+**Projeto:** Página de lançamentos do CAER
 
-First, run the development server:
+**Descrição:** Este projeto é uma página web que lista os lançamentos de software do CAER.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Como executar
+
+1. Instale o Next.js:
+
+```
+npm install -g next
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Clone este repositório:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+git clone https://github.com/caer/caer-releases-page.git
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Navegue até a pasta do projeto:
 
-## Learn More
+```
+cd caer-releases-page
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Crie um arquivo `.env.local` na pasta do projeto. Este arquivo deve conter as variáveis de ambiente necessárias para executar o aplicativo. As variáveis de ambiente necessárias são misteriosas. 🤫
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Inicie o servidor de desenvolvimento:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+npm run dev
+```
 
-## Deploy on Vercel
+6. Abra o navegador em `http://localhost:3000` para visualizar a página.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `dev`: Inicia o servidor de desenvolvimento.
+- `build`: Cria um build de produção do aplicativo.
+- `start`: Inicia o aplicativo em produção.
+- `lint`: Verifica o código quanto a erros de sintaxe e estilo.
+
+## Dependências
+
+- `@emotion/react`: Biblioteca para estilização de componentes React.
+- `@emotion/styled`: Biblioteca para criação de componentes React estilizados.
+- `@fontsource/roboto`: Biblioteca para carregar a fonte Roboto.
+- `@mui/icons-material`: Biblioteca de ícones Material Design.
+- `@mui/material`: Biblioteca de componentes Material Design.
+- `next`: Framework para criação de aplicações web React.
+- `react`: Biblioteca para criação de interfaces de usuário com JavaScript.
+- `react-dom`: Biblioteca para renderização de interfaces de usuário React no DOM.
+
+## Desenvolvimento
+
+Este projeto está em desenvolvimento ativo. Se você encontrar algum problema, por favor, abra um issue no GitHub.
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você quiser contribuir para este projeto, por favor, siga as diretrizes de contribuição.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT.
